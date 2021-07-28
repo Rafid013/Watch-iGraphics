@@ -1,0 +1,23 @@
+﻿Build started 17/10/2017 1:33:44 PM.
+     1>Project "F:\BUET\CSE\L1T2\CSE 105 + 106\Watch\Watch.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="14.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Touching "Debug\Watch.unsuccessfulbuild".
+       ClCompile:
+         f:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\BUET\CSE\CSE 105+106\Watch\OpenGL\dll" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Watchs.cpp
+         Watchs.cpp
+     1>f:\buet\cse\l1t2\cse 105 + 106\watch\watchs.cpp(337): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files\microsoft visual studio 10.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+       Link:
+         f:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\BUET\CSE\L1T2\CSE 105 + 106\Watch\Debug\Watch.exe" /NOLOGO /LIBPATH:"F:\BUET\CSE\CSE 105+106\Watch\OpenGL\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Watch.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\BUET\CSE\L1T2\CSE 105 + 106\Watch\Debug\Watch.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\BUET\CSE\L1T2\CSE 105 + 106\Watch\Debug\Watch.lib" /MACHINE:X86 Debug\Watchs.obj
+         Watch.vcxproj -> F:\BUET\CSE\L1T2\CSE 105 + 106\Watch\Debug\Watch.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\BUET\CSE\L1T2\CSE 105 + 106\Watch\Debug\Watch.exe;#1" /manifest Debug\Watch.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Watch.unsuccessfulbuild".
+         Touching "Debug\Watch.lastbuildstate".
+     1>Done Building Project "F:\BUET\CSE\L1T2\CSE 105 + 106\Watch\Watch.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.03
